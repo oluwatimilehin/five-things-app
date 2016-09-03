@@ -15,9 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ScienceActivity">
+        <activity android:name=".ScienceActivity" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".SportsActivity">
+        <activity android:name=".SportsActivity" android:screenOrientation="portrait">
         </activity>
     </application>
 
