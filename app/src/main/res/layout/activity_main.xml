@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oluwatimilehin.fivethings.MainActivity">
+
+    <TextView
+        style="@style/options"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.7"
+        android:background="#ffffff"
+        android:clickable="false"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp"
+        android:text="Learn 5 things about: "
+        android:textSize="33sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/science_text_view"
+        style="@style/options"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+       android:layout_weight="1"
+        android:background="#fff59d"
+        android:onClick="startScience"
+        android:paddingTop="45dp"
+        android:text="Science"
+        android:clickable="true"
+        />
+    
+    <TextView
+        android:id="@+id/sports_text_view"
+        style="@style/options"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fbc02d"
+        android:paddingTop="45dp"
+        android:text="Sports"
+        android:clickable="true"
+        android:onClick="startSports"
+        />
+
+
+</LinearLayout>

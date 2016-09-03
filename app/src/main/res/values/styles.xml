@@ -1,0 +1,85 @@
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffd54f</item>
+        <item name="colorPrimaryDark">#ffb300</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <!--Styling for the options-->
+    <style name="options">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!--- Styling for the header lines-->
+    <style name="headings">
+        <item name="android:layout_marginTop"> 20dp </item>
+        <item name="android:fontFamily"> sans-serif-light</item>
+        <item name="android:gravity"> center_horizontal </item>
+        <item name="android:textAppearance"> ?android:textAppearanceLarge </item>
+        <item name="android:textSize"> 50sp</item>
+         <item name="android:textStyle">italic </item>
+    </style>
+
+    <!--Styling for the divider lines-->
+    <style name="divider">
+        <item name="android:layout_marginTop"> 5dp </item> android:layout_marginTop="5dp"
+        <item name="android:background"> @android:color/darker_gray </item>
+    </style>
+
+    <!--Styling for the image that comes with the fact-->
+    <style name="fact_image">
+
+           <item name="android:layout_marginLeft"> 85dp </item>
+           <item name="android:layout_marginTop"> 30dp </item>
+           <item name="android:scaleType">fitCenter </item>
+
+    </style>
+
+    <style name="did_you_know">
+        <item name="android:layout_marginLeft"> 15dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:text">Did you know?</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="fact_text">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:fontFamily">sans-serif-bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="previous_button">
+        <item name="android:layout_marginLeft">30dp </item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">Previous</item>
+        <item name="android:drawableLeft">@drawable/arrow_left</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="next_button">
+        <item name="android:layout_marginRight">30dp </item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">Next</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:drawableRight">@drawable/arrow_right</item>
+        <item name="android:drawablePadding">4dp</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
